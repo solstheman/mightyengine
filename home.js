@@ -2,11 +2,6 @@ var $window   = $(window),
 	height    = $window.height(),
 	width     = $window.width();
 
-
-  window.onload = function(e) {
-	  e.preventDefault();
-  }
-
   function sticky(){
 	var scrollTop = $window.scrollTop();
 	if (scrollTop > (height - $('#nav_wrap').height())) {
