@@ -8,6 +8,7 @@
 }
 :root {
 	--theme-color: #751616;
+	--theme-color-darker: #e27575;
 }
 body {
 	margin: 0px;
@@ -150,8 +151,8 @@ nav a {
 
 .nav_link:hover {
 	text-decoration: none;
-	color: var(--theme-color);
-	font-family: 'Gotham Medium';
+	color: var(--theme-color-darker);
+	font-weight: 'bold';
 }
   
 .sticky {
@@ -181,7 +182,7 @@ nav a {
 }
 .info_body {
 	margin-top: 3em;
-	font-size: 50px;
+	font-size: 30px;
 	padding: 0 15%;
 }
 
@@ -209,6 +210,7 @@ nav a {
 
 .details_section {
 	padding: 0 2em;
+	margin-bottom: 2em;
 }
 
 .registry_header {
@@ -264,4 +266,10 @@ ul {
     font-size: x-large;
     background: var(--theme-color);
     color: white;
+}
+.anchor {
+    display: block;
+    position: relative;
+    top: -3em;
+    visibility: hidden;
 }
